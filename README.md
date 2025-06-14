@@ -1,4 +1,3 @@
-```markdown
 # EventStream: Scalable Data Pipeline for Event Processing
 
 ## Overview

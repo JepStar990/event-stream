@@ -1,3 +1,5 @@
+Here's the revised version of your document, with corrections and improvements for clarity and formatting:
+
 # EventStream: Scalable Data Pipeline for Event Processing
 
 ## Overview
@@ -6,7 +8,7 @@ EventStream is a scalable data pipeline designed to ingest, process, and analyze
 
 ## Architecture
 
-![EventStream Architecture](architecture.png)
+[EventStream Architecture](architecture.png)
 
 ### Architecture Components
 
@@ -14,7 +16,7 @@ EventStream is a scalable data pipeline designed to ingest, process, and analyze
 2. **MinIO**: Acts as a local object storage solution, mimicking Amazon S3 for storing raw and processed data.
 3. **Apache Spark**: Processes data using Scala, performing advanced transformations and aggregations.
 4. **Apache Airflow**: Orchestrates the workflow, scheduling tasks for data ingestion, processing, and storage.
-5. **Prometheus & Grafana**: Provides monitoring and visualization of system metrics for NiFi, Airflow, Spark, and MinIO.
+5. **Prometheus & Grafana**: Provide monitoring and visualization of system metrics for NiFi, Airflow, Spark, and MinIO.
 
 ## Features
 
@@ -34,23 +36,23 @@ EventStream is a scalable data pipeline designed to ingest, process, and analyze
 
 1. **Clone the Repository**
 
+   ```bash
+   git clone https://github.com/yourusername/eventstream.git
+   cd eventstream
    ```
-  git clone https://github.com/yourusername/eventstream.git
-  cd eventstream
-  ```
 
 2. **Initialize Git LFS**
 
+   ```bash
+   git lfs install
+   git lfs track "*.csv"
    ```
-  git lfs install
-  git lfs track "*.csv"
-  ```
 
 3. **Build and Run Services**
 
+   ```bash
+   docker-compose up -d
    ```
-  docker-compose up -d
-  ```
 
 4. **Access Services**
 
@@ -78,10 +80,9 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or support, please contact zwiswamuridili990@gmail.com.
+For questions or support, please contact [zwiswamuridili990@gmail.com](mailto:zwiswamuridili990@gmail.com).
 
-
-### **Architecture Diagram**
+### Architecture Diagram
 
 To create the architecture diagram, you can use tools like Lucidchart, Draw.io, or any diagramming software. Here's a description of the diagram:
 
@@ -90,4 +91,3 @@ To create the architecture diagram, you can use tools like Lucidchart, Draw.io, 
 - **Spark**: Processes data using Scala, performing transformations and aggregations.
 - **Airflow**: Orchestrates the workflow, managing task dependencies and scheduling.
 - **Prometheus & Grafana**: Monitors system metrics and visualizes them in dashboards.
-

@@ -37,21 +37,21 @@ EventStream is a scalable data pipeline designed to ingest, process, and analyze
    ```bash
   git clone https://github.com/yourusername/eventstream.git
   cd eventstream
-  ``
+  ```
 
 2. **Initialize Git LFS**
 
    ```bash
   git lfs install
   git lfs track "*.csv"
-  ``
+  ```
 
 3. **Build and Run Services**
 
    ```bash
   docker-compose up -d
   ```
-
+```
 4. **Access Services**
 
    - **MinIO**: [http://localhost:9000](http://localhost:9000)

@@ -1,5 +1,3 @@
-Here's the revised version of your document, with corrections and improvements for clarity and formatting:
-
 # EventStream: Scalable Data Pipeline for Event Processing
 
 ## Overview
